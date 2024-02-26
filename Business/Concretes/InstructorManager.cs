@@ -11,9 +11,9 @@ namespace Kodlama_io.Business.Concretes
 {
     public class InstructorManager : IInstructorService
     {
-        private readonly IInstructorService _instructorDal;
+        private readonly IInstructorDal _instructorDal;
 
-        public InstructorManager(IInstructorService instructorDal)
+        public InstructorManager(IInstructorDal instructorDal)
         {
             _instructorDal = instructorDal;
         }
